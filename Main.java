@@ -4,7 +4,7 @@ public class Main extends Thread{
         System.out.println("Thread 1");  
     }  
      public static void main(String []args){
-       HelloWorld t1=new HelloWorld();
+       Main t1=new Main();
      
       t1.start();
     }
